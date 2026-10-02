@@ -21,13 +21,18 @@ From the project directory, install the dependencies:
 
 ```sh
 npm install
+
 ```
 
 ## Run the app
 
 Start the Expo development server:
 
- npx expo run:android
+ 
+ ```sh
+npx expo run:android
+
+```
 
 Use the Expo CLI prompts to open the app in an available development build or emulator.
 
