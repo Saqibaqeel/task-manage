@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "TaskFlow",
+    "slug": "TaskFlow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1D265F"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#1D265F"
+        }
+      ],
+      "@react-native-community/datetimepicker"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/icon.png"
+      },
+      "package": "com.saqib1aqeel23.TaskFlow"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    }
+  }
+}
